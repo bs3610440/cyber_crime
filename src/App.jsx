@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar/Navbar.jsx'
-import Home from './components/Home/Home.jsx'
-import Footer from './components/Footer.jsx'
+import Navbar from './Components/Navbar/Navbar'
+import Home from './Components/Home/Home.jsx'
+import Footer from './Components/Footer.jsx'
 import Tools from './Components/Tools.jsx'
-import Casestudies from './components/Casestudies.jsx'
-import Research from './components/Research.jsx'
+import Casestudies from './Components/Casestudies.jsx'
+import Research from './Components/Research.jsx'
 import Contactus from './Components/Contactus.jsx'
 export default function App() {
   return (
